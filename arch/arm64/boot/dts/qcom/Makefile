@@ -664,6 +664,9 @@ dtb-$(CONFIG_ARCH_SDM429) += sdm429-mtp.dtb \
 	sda429-spyro-dvt.dtb \
 	sdm429-bg-iot-wtp.dtb
 
+dtb-$(CONFIG_ARCH_SDM660) += sdm660-mtp_whyred.dtb  \
+	sdm636-mtp_whyred.dtb
+
 endif
 
 dtb-$(CONFIG_ARCH_SDM845_VM) += sdm845-vm.dtb
